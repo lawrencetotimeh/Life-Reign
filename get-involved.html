@@ -1,0 +1,139 @@
+<!-- Life Reign: Get Involved page.
+     Form is a visual stub only, not wired to a backend yet. Needs a form handler
+     (Netlify Forms is the simplest option since we're already deploying there)
+     before this can actually receive submissions. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Involved | Life Reign</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><span class="brand-mark">LR</span> Life Reign</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="get-involved.html" class="active">Get Involved</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="donate.html" class="btn btn-primary">Donate</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Join Us</span>
+    <h1>Get Involved</h1>
+    <p>Volunteer at the Youth Safe Space, partner with us on a program, or lend a skill. There's a place for you at Life Reign.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon-badge teal"><img src="images/hands-helping-teal.png" alt=""></div>
+        <h3>Volunteer</h3>
+        <p>Help staff a Youth Safe Space session, chaperone an event, or support programming on the ground.</p>
+      </div>
+      <div class="card">
+        <div class="icon-badge purple"><img src="images/handshake-purple.png" alt=""></div>
+        <h3>Partner</h3>
+        <p>Bring your organization alongside Life Reign the way DC Action, Crowns Inc., and others already have.</p>
+      </div>
+      <div class="card">
+        <div class="icon-badge dark"><img src="images/gift-white.png" alt=""></div>
+        <h3>Give In-Kind</h3>
+        <p>Meals, supplies, or space for a session. Waiting on Dominique for the actual wish list.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tint-teal">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Sign Up</span>
+      <h2>Tell us how you'd like to help</h2>
+    </div>
+
+    <div class="form-note">
+      <strong>Build note:</strong> this form is a visual placeholder only. It isn't connected to anything yet. Recommend wiring it to Netlify Forms (free, no extra service needed since we're already hosting there) once the site is ready to go live. The fields below can change based on what Dominique actually wants to collect.
+    </div>
+
+    <form class="stub" onsubmit="return false;">
+      <div>
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+      </div>
+      <div>
+        <label for="interest">I'm interested in</label>
+        <select id="interest" name="interest">
+          <option>Volunteering at the Youth Safe Space</option>
+          <option>Partnering as an organization</option>
+          <option>Giving in-kind support</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Tell us a bit more</label>
+        <textarea id="message" name="message" placeholder="How would you like to help?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-secondary" style="justify-self:start;">Submit (not yet live)</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:var(--white); margin-bottom:14px;"><span class="brand-mark">LR</span> Life Reign</div>
+        <p class="small-note" style="color:#9A9A9A;">A Washington, DC nonprofit corporation serving Anacostia and Ward 8.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://instagram.com/lifereign_" target="_blank" rel="noopener">Instagram @lifereign_</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Life Reign. All rights reserved.</span>
+      <span class="small-note">Placeholder site content pending final copy &amp; assets from Dominique Moore.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
